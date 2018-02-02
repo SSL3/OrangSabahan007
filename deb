@@ -411,35 +411,35 @@ red='\e[1;31m'
 cd
 ## info
 echo ""  | tee -a log-install.txt
-echo -e "\e[38;5;9m☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆ PREMIUM SERVER ☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆\e[0m" 
-echo -e "\e[38;5;9m                      Copyright orangkuatsabahanterkini                \e[0m" 
-echo -e "\e[38;5;9m                      https://t.me/orangkuatsabahanterkini              \e[0m"  
-echo -e "\e[38;5;197m☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆\e[0m" 
-echo "========================================"  | tee -a log-install.txt
-echo "Service Autoscript OrangKuatSabahanTerkini (OrangKuatSabahanTerkini SCRIPT 2017)"  | tee -a log-install.txt
-echo "----------------------------------------"  | tee -a log-install.txt 
-echo ""  | tee -a log-install.txt
-echo -e "\e[38;5;214mnginx\e[38;5;13m http://$myip:80\e[0m"   | tee -a log-install.txt 
-echo -e "\e[38;5;214mWebmin\e[38;5;13m http://$myip:10000/\e[0m"  | tee -a log-install.txt 
-echo -e "\e[38;5;214mSquid3\e[38;5;13m 8080\e[0m" | tee -a log-install.txt 
-echo -e "\e[38;5;214mOpenSSH\e[38;5;13m 22\e[0m"  | tee -a log-install.txt
-echo -e "\e[38;5;214mDropbear\e[38;5;13m 109'110'442\e[0m"  | tee -a log-install.txt
-echo -e "\e[38;5;214mSSL\e[38;5;13m 443\e[0m" | tee -a log-install.txt 
-echo -e "\e[38;5;214mOpenVPN\e[38;5;13m IP/client.ovpn\e[0m"  | tee -a log-install.txt
-echo "Fail2Ban : [on]"  | tee -a log-install.txt 
-echo "Timezone : Asia/Kuala_Lumpur"  | tee -a log-install.txt 
-echo "Menu : type menu to check menu script"  | tee -a log-install.txt 
+echo -e "\e[38;5;9m☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆ PREMIUM SERVER ☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆" | lolcat
+echo -e "\e[38;5;9m                      Copyright orangkuatsabahanterkini                " | lolcat
+echo -e "\e[38;5;9m                      https://t.me/orangkuatsabahanterkini              "  | lolcat
+echo -e "\e[38;5;197m☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆" | lolcat
+echo "========================================"  | tee -a log-install.txt | lolcat
+echo "Service Autoscript OrangKuatSabahanTerkini (OrangKuatSabahanTerkini SCRIPT 2017)"  | tee -a log-install.txt | lolcat
+echo "----------------------------------------"  | tee -a log-install.txt | lolcat
 echo ""  | tee -a log-install.txt | lolcat
-echo "----------------------------------------" 
-echo "LOG INSTALL  --> /root/log-install.txt" 
-echo "----------------------------------------"
-echo "▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒"  | tee -a log-install.txt
+echo -e "\e[38;5;214mnginx\e[38;5;13m http://$myip:80\e[0m"   | tee -a log-install.txt | lolcat
+echo -e "\e[38;5;214mWebmin\e[38;5;13m http://$myip:10000/\e[0m"  | tee -a log-install.txt | lolcat 
+echo -e "\e[38;5;214mSquid3\e[38;5;13m 8080\e[0m" | tee -a log-install.txt | lolcat
+echo -e "\e[38;5;214mOpenSSH\e[38;5;13m 22\e[0m"  | tee -a log-install.txt | lolcar
+echo -e "\e[38;5;214mDropbear\e[38;5;13m 109'110'442\e[0m"  | tee -a log-install.txt
+echo -e "\e[38;5;214mSSL\e[38;5;13m 443\e[0m" | tee -a log-install.txt | lolcat
+echo -e "\e[38;5;214mOpenVPN\e[38;5;13m IP/client.ovpn\e[0m"  | tee -a log-install.txt | lolcat
+echo "Fail2Ban : [on]"  | tee -a log-install.txt  | lolcat
+echo "Timezone : Asia/Kuala_Lumpur"  | tee -a log-install.txt | lolcat
+echo "Menu : type menu to check menu script"  | tee -a log-install.txt | lolcat
+echo ""  | tee -a log-install.txt | lolcat
+echo "----------------------------------------" | lolcat
+echo "LOG INSTALL  --> /root/log-install.txt" | lolcat
+echo "----------------------------------------" | lolcat
+echo "▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒"  | tee -a log-install.txt | lolcat
 echo "      PLEASE REBOOT TO TAKE EFFECT !" | lolcat
-echo "▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒"  | tee -a log-install.txt
+echo "▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒"  | tee -a log-install.txt | lolcat
 cat /dev/null > ~/.bash_history && history -c
 cd ~/
 rm -f /root/mrtg-mem
 rm -f /root/pptp.sh
 rm -f /root/dropbear-2016.74.tar.bz2
 rm -rf /root/dropbear-2016.74
-rm -f /root/debian7.sh
+rm -f /root/deb
